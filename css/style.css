@@ -124,3 +124,103 @@ main .idioma-container {
     text-align: center;
     vertical-align: middle;
 }
+.div-form {
+    display: flex;
+    position: relative;
+    top: 35rem;
+    width: 73%;
+    display: inline-block;
+}
+   
+
+.div-form input {
+    width: 100%;
+    
+    height: 4.4rem;
+    border-width: 1px;
+    border-radius: 22px  22px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+#searchLanguage {
+    background-image: url("data:image/png;base64,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");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-x: 30px;
+    background-position-y: 8px;
+    font-size: 1.3rem;
+    border: 0;
+    margin: 0;
+    color: transparent;
+    color: hsla(0,0%,100%,0);
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer
+    
+
+}
+.label-search {
+    color: #008cff;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    cursor: pointer;
+    left: 8px;
+    position: absolute;
+
+
+
+}
+.div-buscar-0:hover {
+    background-color: #f8f9fa;
+
+}
+#searchLanguage:hover {
+    background-color: #f8f9fa;
+}
+.div-buscar-0 {
+    width: 4rem;
+    height: 2rem;
+    position: absolute;
+    display: flex;
+    right: 60px;
+    top: 13px;
+}
+.button-container {
+    width: auto;
+    height: 43px;
+    position: absolute;
+    left: 50px;
+}
+.form-buscar button {
+    border: none;
+    background-color: #36c;
+    border-radius: 0 22px 22px 0;
+    color: white;
+    
+    cursor: pointer;
+    width: 50px;
+    height: 44px;
+    
+    position: relative;
+    bottom: 13px;
+}
+.form-buscar button .search-icon {
+    display: block;
+    background-position: 0 -698px;
+    width: 22px;
+    height: 22px;
+}
+.form-buscar button .span-backgraund {
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+}
