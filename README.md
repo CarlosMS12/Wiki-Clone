@@ -1,2 +1,2 @@
 # Wiki-Clone
-Clone de Wikipedia
+Clone de Wikipedia.
